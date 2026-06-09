@@ -17,7 +17,7 @@ short_description: AI prototype for brain stroke detection (CT & MRI)
 A research-oriented prototype decision-support platform for brain stroke imaging analysis (CT & MRI). NeuroGuard integrates deep learning classification with attention mechanisms, Grad-CAM++ localization, spatial analysis, and a local explainable AI (XAI) reporting engine.
 
 ### 🌐 Live Demos
-*   **Production Standalone Site:** [neuroguard-ai.netlify.app](https://neuroguard-ai.netlify.app) (Free Custom Domain)
+*   **Production Standalone Site:** [neuroguard-ai.netlify.app](https://neuroguardai.netlify.app/) (Free Custom Domain)
 *   **Hugging Face Spaces Embed:** [jaswanth69-neuroguard.hf.space](https://jaswanth69-neuroguard.hf.space)
 
 ---
