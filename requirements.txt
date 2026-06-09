@@ -1,0 +1,35 @@
+# ──────────────────────────────────────────────────────────────────────────────
+#  NeuroGuard — Python Dependencies
+#
+#  Install all at once:
+#      pip install -r requirements.txt
+#
+#  Recommended: Python 3.10.x
+# ──────────────────────────────────────────────────────────────────────────────
+
+# Core Numerics
+numpy<2                        # Must stay below 2.0 — OpenCV requires it
+
+# Deep Learning: PyTorch (MRI + CT models — DenseNet169 + CBAM)
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Computer Vision
+opencv-python>=4.7.0           # cv2 — image reading, heatmap overlay, contour analysis
+
+# Image Processing
+Pillow>=9.0.0                  # PIL.Image — preprocessing pipeline
+
+# Scientific Computing (heatmap analytics — Gaussian smoothing, spatial stats)
+scipy>=1.10.0
+
+# Web UI
+gradio>=4.0.0                  # Gradio Blocks UI framework
+
+# Analytics Dashboard
+matplotlib>=3.7.0              # Prediction distribution & timing charts
+
+# Hugging Face Hub (for downloading model checkpoints on Spaces)
+huggingface_hub>=0.19.0
+
+# NOTE: google-genai removed — XAI is now fully local (no API, no rate limits)

@@ -1,0 +1,8 @@
+Place your trained model files here:
+
+  ct_best_model.pth       (CT scan model — DenseNet169 + CBAM)
+  mri_best_model_v2.pth   (MRI scan model — DenseNet169 + CBAM)
+
+Download link: [Add your Google Drive / OneDrive link here]
+
+These files are excluded from GitHub due to size (~60 MB each).

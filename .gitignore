@@ -1,0 +1,35 @@
+# ── Python cache ──────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# ── Virtual environments ───────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+.env
+
+# ── NeuroGuard runtime files ───────────────────────────────────────────────────
+.image_cache/           # Gradio temp image cache
+neuroguard_logs.db      # SQLite analytics DB (no patient data, but not for source control)
+*.db
+*.db-shm
+*.db-wal
+
+# ── Gradio temp ───────────────────────────────────────────────────────────────
+.gradio/
+
+# ── Config (keep private) ─────────────────────────────────────────────────────
+config.py               # Contains any local keys — do NOT commit
+
+# ── OS / Editor ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+*.log
+
+# ── Large model files tracked via Git LFS or HF Dataset ──────────────────────
+Models/*.pth          # Ignore large model files on GitHub
